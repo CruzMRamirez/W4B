@@ -1,0 +1,16 @@
+.container {
+    border: 1px solid black;
+    font-size: 26px;
+    background-color: tan;
+    text-align: center;
+  }
+  .second {
+    background-color: pink;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    display: inline-block;
+  }
+  .second:nth-of-type(2n) {
+    background-color: lightblue;
+  }

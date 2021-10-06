@@ -1,0 +1,35 @@
+body {
+    background-color: gainsboro;
+}
+header {
+    height: 100px;
+    background-color: teal;
+}
+nav {
+    height: 50px;
+    background-color: gray;
+}
+.content {
+    width: 70%;
+    float: left;
+}
+aside {
+    width: 30%;
+    height: 400px;
+    float: left;
+    background-color: lightsalmon;
+}
+section, article {
+    height: 200px;
+}
+section {
+    background-color: green;
+}
+article {
+    background-color: indianred;
+}
+footer {
+    height: 100px;
+    clear: both;
+    background-color: lightskyblue;
+}
