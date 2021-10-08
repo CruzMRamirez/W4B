@@ -1,0 +1,90 @@
+body {
+    margin: 0px;
+}
+div, header, nav, section, article, aside, footer {
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+header, nav, section, article, aside, footer {
+    padding: 5px;
+}
+.container {
+    width: 1000px;
+    margin: auto;
+    margin-top: 20px;
+}
+header {
+    background-color: blanchedalmond;
+    height: 200px;
+}
+nav {
+    background-color: gray;
+    height: 50px;
+    /* We can will be adding position sticky to the navigation menu.*/
+    /* then we will specify for it to stap at the top and to the left. */
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    /* moving the links to the right of the navigation menu */
+    text-align: right;
+}
+nav ul li{
+    /* for the list items I want them to be in a line */
+    display: inline;
+    /* i want them to be slightly apart from each other. */
+    margin-right: 20px;
+}
+/* Let's go ahead and change the color of all a tags within the nav */
+nav ul li a{
+    color: white;
+}
+/* We can also specify any additional rules by using : (semicolon) */
+/* the hover restriction can be used for any element */
+/* In this case, we will be changing the white link to magenta when our mouse hovers on the link. */
+nav ul li a:hover{
+    color: magenta;
+}
+/* The active restriction applies only when you are clicking on it. Make sure to put this under hover, or you will be overwritten by hover. */
+nav ul li a:active{
+    color: black;
+}
+.wrapper {
+    width: 588px;
+    float: left;
+}
+section {
+    background-color: paleturquoise;
+    /* to test out the sticky on the nav lets increase all the heights of main tags. */
+    height: 200px;
+}
+article {
+    background-color: palevioletred;
+    /* to test out the sticky on the nav lets increase all the heights of main tags. */
+    height: 200px;
+}
+article:hover {
+    background-color: maroon;
+}
+aside {
+    background-color: peru;
+    /* to test out the sticky on the nav lets increase all the heights of main tags. */
+    /* remember this has to be double the height of section and article. */
+    /* In this case, I added 100 to both section and article, so here i'll increase it by 200 */
+    height: 414px;
+    width: 398px;
+    float: left;
+}
+footer {
+    background-color: lavender;
+    /* to test out the sticky on the nav lets increase all the heights of main tags. */
+    height: 200px;
+    clear: both;
+}
+/* Ignore this :D */
+.instructions {
+    margin: auto;
+    width: 1000px;
+    background-color: tan;
+    padding: 10px;
+}

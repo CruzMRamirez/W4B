@@ -10,9 +10,14 @@ A programmer's wife tells her husband "Can you go to the store and buy 4 eggs? I
 [Free Code Camp](https://www.freecodecamp.org/)
 
 ## Recent Updates to Repository
-Updated Day 1 and Day 2 folder and gave a detailed description on how to do Day 5.
+#### Added Day 6
+#### Updated Day 1 and Day 2 folder. 
+#### Gave a detailed description on how to do Day 5.
 
 ## Q&A
+### Can I request additions to the repository?
+I'll take all requests into consideration. If you have something you would like for me to add to the repository, ask during class or through slack.
+
 ### When does this get updated?
 This will be updated at the end of every class, once after the daily challenge has been completed
 
