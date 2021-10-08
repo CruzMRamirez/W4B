@@ -9,6 +9,9 @@ A programmer's wife tells her husband "Can you go to the store and buy 4 eggs? I
 [Css Tricks](https://css-tricks.com/), 
 [Free Code Camp](https://www.freecodecamp.org/)
 
+## Recent Updates to Repository
+Updated Day 1 folder and gave a detailed description on how to do Day 5.
+
 ## Q&A
 ### When does this get updated?
 This will be updated at the end of every class, once after the daily challenge has been completed
