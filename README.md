@@ -2,7 +2,7 @@
 A repository meant for the daily challenge work for Bitwise Industries' class.
 
 ## Programming Joke
-A programmer's wife tells her husband "Can you go to the store and buy 4 eggs? If there is milk, bring one." The programmer's wife is mad when he brought 1 egg. What happened?
+There are only 10 kinds of people in this world: those who know binary and those who don’t.
 
 ## Resources for the class
 Here are a few links to get you started,
