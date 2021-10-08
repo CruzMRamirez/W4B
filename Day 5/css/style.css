@@ -1,42 +1,95 @@
+/* When creating css you can add additonal rules or include additional elements by using or not using the , here are a couple of examples. Figure 1 shows css being applied to multiple elements, while figure 2 shows a more strict rule. Figure 2 says find element3 which is located inside element2 which is also inside element3.*/
+
+/* 
+    figure 1.
+    element1, element2, element3 {
+        css goes here
+    }
+
+    figure 2.
+    element1 element2 element3 {
+        css goes here
+    }
+*/
 div, header, nav, section, article, aside, footer {
+    /* Border's are not always required but is adivised to do so. */
     border-width: 1px;
     border-style: solid;
     border-color: black;
+    /* Additional tip for border you can type it like this */
+    /* border: width style color; */
+    /* Ex. border: 1px solid black; */
 }
+/* giving all main elements a padding of 5 pixels */
 header, nav, section, article, aside, footer {
     padding: 5px;
 }
 .container {
+    /* we will be adding a width of 1000 here. */
     width: 1000px;
+    /* we also added margin auto to center it. For this daily challenge we do not need to center it. */
+    margin: auto;
+    /* do not add this style */
+    margin-top: 400px;
 }
 header {
     background-color: blanchedalmond;
+    /* we will be giving all the main tags the same height with the exception of the aside and nav tags. */
     height: 100px;
 }
 nav {
     background-color: gray;
+    /* exceptions usually only contains links so no reason to make it big unless for styling purposes. */
     height: 50px;
 }
+/* Here we are going to do some math. */
+/* we want the entire wrapper to be a total of 600px to do this we will need to subtract a few pixels from the total*/
+/* we added a 1 pixel border to article and section. That means on the left and Right there is 1 extra pixel. */
+/* 600px - 2px */
+/* then we added a 5 pixel padding to the left and right. If you add them up, we get 10. */
+/* 600px - 2px - 10px = 588px */
+/* Desired amount - border width left - border width right - padding left - padding right = Total Width.*/
 .wrapper {
     width: 588px;
+    /* we are going to float it to the left */
     float: left;
 }
 section {
     background-color: paleturquoise;
+    /* we will be giving all the main tags the same height with the exception of the aside and nav tags. */
     height: 100px;
 }
 article {
     background-color: palevioletred;
+    /* we will be giving all the main tags the same height with the exception of the aside and nav tags. */
     height: 100px;
 }
 aside {
     background-color: peru;
     height: 214px;
+    /* we will be doing the same thing here that we did for the wrapper */
+    /* because we already calculated the padding into the wrapper we don't have to do it here. */
+    /* we will only be subtracting the border width */
+    /* 400px - 2px = 398px*/
     width: 398px;
+    /* we are going to float it to the left */
     float: left;
 }
 footer {
     background-color: lavender;
+    /* we will be giving all the main tags the same height with the exception of the aside and nav tags. */
     height: 100px;
+    /* let's make sure to clear both. this is needed so the footer doesn't attempt to go to the left as well. */
     clear: both;
+}
+/* Ignore this :D */
+.instructions {
+    position: fixed;
+    top: 0px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 1000px;
+    background-color: tan;
+    padding: 10px;
 }

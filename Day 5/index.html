@@ -1,3 +1,4 @@
+<!-- Lines 2-10 and the final 2 lines are considered the html structure -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +8,41 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
+    <!-- Do not create this. This is just to help out if you are following behind-->
+    <div class="instructions">
+        <h2>How to accomplish today's take home challenge</h2>
+        <ol>
+            <li>
+                <p>First we are going to start with creating the html structure.</p>
+            </li>
+            <li>
+                <p>Secondly, we are going to create the page's structure.</p>
+            </li>
+            <li>
+                <p>Once creating both structures, you're ready for styling. Lets go ahead and give them all different colors and a padding of 5px!</p>
+            </li>
+            <li>
+                <p>After the colors have been added, we are going to go ahead and give them all heights and.</p>
+            </li>
+            <li>
+                <p>Next, we will be adding width to the follwing elements:</p>
+                <ul>
+                    <li>Container</li>
+                    <li>Wrapper</li>
+                    <li>Aside</li>
+                </ul>
+            </li>
+            <li>
+                <p>We will finish by adding the float property to the wrapper and the aside tags. we will also need to use the clear property on the footer tag.</p>
+            </li>
+        </ol>
+    </div>
+
+    <!-- Lines 42 - 63 are going to be considered as the page's structure-->
+    <!-- First we are going to create a container this will contain the entire structure. Note this may or may not be necessary. For this tutorial, I will be using it to have a clean and organized structure.-->
     <div class="container">
+        <!-- Once we have created our container, we create the following tags Header, Nav, Main, and Footer -->
         <header>
             header
         </header>
@@ -15,10 +50,13 @@
         nav
         </nav>
         <main>
+            <!-- Within the Main tag, we will be grouping two tags together. Mostly for organization purposes. -->
             <div class="wrapper">
+                <!-- we'll create the two tags that will contain our content here. Section and Article -->
                 <section>section</section>
                 <article>article</article>
             </div>
+            <!-- This aside is supposed to be to the right of the wrapper. Because of that, I'll just create here. -->
             <aside>aside</aside>
         </main>
         <footer>footer</footer>
