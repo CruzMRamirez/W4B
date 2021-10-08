@@ -1,35 +1,42 @@
-body {
-    background-color: gainsboro;
+div, header, nav, section, article, aside, footer {
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+header, nav, section, article, aside, footer {
+    padding: 5px;
+}
+.container {
+    width: 1000px;
 }
 header {
+    background-color: blanchedalmond;
     height: 100px;
-    background-color: teal;
 }
 nav {
-    height: 50px;
     background-color: gray;
+    height: 50px;
 }
-.content {
-    width: 70%;
+.wrapper {
+    width: 588px;
     float: left;
-}
-aside {
-    width: 30%;
-    height: 400px;
-    float: left;
-    background-color: lightsalmon;
-}
-section, article {
-    height: 200px;
 }
 section {
-    background-color: green;
+    background-color: paleturquoise;
+    height: 100px;
 }
 article {
-    background-color: indianred;
+    background-color: palevioletred;
+    height: 100px;
+}
+aside {
+    background-color: peru;
+    height: 214px;
+    width: 398px;
+    float: left;
 }
 footer {
+    background-color: lavender;
     height: 100px;
     clear: both;
-    background-color: lightskyblue;
 }
