@@ -10,10 +10,11 @@ Here are a few links to get you started,
 [Css Tricks](https://css-tricks.com/), 
 [Free Code Camp](https://www.freecodecamp.org/). 
 If you are in the class you should also have access to our google docs. Here is a link to the resources we have shown or used in the class. [Google Doc: Our Resources](https://docs.google.com/document/d/1RI0uQnst4AINq3Y30jaHm3aQ3DXEroAGLOuFja1ugE4/edit?usp=sharing)
+
 ## Recent Updates to Repository
 Added Day 6. 
 Updated Day 1 and Day 2 folder. 
-Gave a detailed description on how to do Day 5. 
+Gave a detailed description on how to do Day 5.
 
 ## Q&A
 ### Can I request additions to the repository?
