@@ -10,7 +10,7 @@ A programmer's wife tells her husband "Can you go to the store and buy 4 eggs? I
 [Free Code Camp](https://www.freecodecamp.org/)
 
 ## Recent Updates to Repository
-Added Day 6 
+Added Day 6. 
 Updated Day 1 and Day 2 folder. 
 Gave a detailed description on how to do Day 5. 
 
