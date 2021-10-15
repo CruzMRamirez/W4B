@@ -2,7 +2,7 @@
 A repository meant for the daily challenge work for Bitwise Industries' class.
 
 ## Programming Joke
-There are only 10 kinds of people in this world: those who know binary and those who don’t.
+There are three kinds of lies: Lies, damned lies, and benchmarks
 
 ## Resources for the class
 Here are a few links to get you started,
@@ -12,9 +12,7 @@ Here are a few links to get you started,
 If you are in the class you should also have access to our google docs. Here is a link to the resources we have shown or used in the class. [Google Doc: Our Resources](https://docs.google.com/document/d/1RI0uQnst4AINq3Y30jaHm3aQ3DXEroAGLOuFja1ugE4/edit?usp=sharing)
 
 ## Recent Updates to Repository
-Added Day 6. 
-Updated Day 1 and Day 2 folder. 
-Gave a detailed description on how to do Day 5.
+Added Day 7-8 folder containing all info about creating ssh, command prompt commands, and github commands.
 
 ## Q&A
 ### Can I request additions to the repository?

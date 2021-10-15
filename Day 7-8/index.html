@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 5 Challenge</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- As always, go ahead and ignore anything within the instructions div. -->
+    <div class="instructions">
+        <h2>Here are all the commands and tutorials for days 7 and 8</h2>
+    </div>
+    
+    <div class="row">
+        <!-- how to generate and add ssh key to github -->
+        <div class="col">
+            <div class="header">
+                <h3>How to Create an ssh key</h3>
+            </div>
+            <div class="content">
+                <p>For Windows</p>
+                <ol>
+                    <li>Open your terminal</li>
+                    <li>Run the Following Command: <br> 'ssh-keygen -t ed25519 -C "your_email@example.com"'</li>
+                    <li>This will ask you were you want to save it. Just hit enter.</li>
+                    <li>Then it will ask you if you want to add a password. If you decide to enter a password, when you type in your password you will not see it be typed. If you don't want a password, just press enter.</li>
+                    <li>Run the Following Command: <br> 'clip &lt; ~/.ssh/id_ed25519.pub' <br> Running that command will add your ssh key to the clip board.</li>
+                    <li>Using the browser do the following:
+                        <ul>
+                            <li>navigate to github</li>
+                            <li>go to settings</li>
+                            <li>go to ssh and gpg keys</li>
+                            <li>add a new ssh key</li>
+                            <li>put your title and paste your key in the big box.</li>
+                        </ul>
+                    </li>
+                    <li>then you are finished</li>
+                </ol>
+                <p>For Mac OS</p>
+                <ol>
+                    <li>Open your terminal</li>
+                    <li>Run the Following Command: <br> 'ssh-keygen -t ed25519 -C "your_email@example.com"'</li>
+                    <li>This will ask you were you want to save it. Just hit enter.</li>
+                    <li>Then it will ask you if you want to add a password. If you decide to enter a password, when you type in your password you will not see it be typed. If you don't want a password, just press enter.</li>
+                    <li>Run the Following Command: <br> 'pbcopy &lt; ~/.ssh/id_ed25519.pub' <br> Running that command will add your ssh key to the clip board.</li>
+                    <li>Using the browser do the following:
+                        <ul>
+                            <li>navigate to github</li>
+                            <li>go to settings</li>
+                            <li>go to ssh and gpg keys</li>
+                            <li>add a new ssh key</li>
+                            <li>put your title and paste your key in the big box.</li>
+                        </ul>
+                    </li>
+                    <li>then you are finished</li>
+                </ol>
+            </div>
+        </div>
+        <div class="col">
+            <div class="header">
+                <h3>Terminal/Command Prompt Commands</h3>
+            </div>
+            <div class="content">
+                <ol>
+                    <li>cd : Change Directory</li>
+                    <li>mkdir : Make a New Folder or Directory</li>
+                    <li>cd .. : back out from a folder.</li>
+                    <li>ls : list out all folders and files</li>
+                </ol>
+                <hr>
+                <p>Windows Specific</p>
+                    <ul>
+                        <li>dir : list out all files and folders</li>
+                    </ul>
+                <p>Mac Specific</p>
+                    <ul>
+                        <li>ls -al : list out all files and folders</li>
+                    </ul>
+            </div>
+        </div>
+        <div class="col">
+            <div class="header">
+                <h3>Basic Github Command</h3>
+            </div>
+            <div class="content">
+                <li>git status : shows what has or hasn't been tracked</li>
+                <li>git add FileName : adds a FileName to your next commit </li>
+                <li>git add . : adds all files in the current directory you are in to your next commit</li>
+                <li>git commit : commits the files without a message NOTE: Do yourself a favor and always add a commit message</li>
+                <li>git commit -m "Your Message Here" : commit the files you are tracking with a message.</li>
+                <li>git push origin BranchName : push your code to BranchName NOTE: We did this with the main branch <br> ex. git push origin main</li>
+                <li>git checkout BranchName : switch branches.</li>
+                <li>git checkout -b BranchName : Make a new branch named BranchName</li>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

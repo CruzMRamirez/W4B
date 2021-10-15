@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    background-color: beige;
 }
 div, header, nav, section, article, aside, footer {
     border-width: 1px;
@@ -89,4 +90,27 @@ footer {
     width: 1000px;
     background-color: tan;
     padding: 10px;
+    text-align: center;
+}
+.row {
+    margin: 20px;
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+    justify-content: space-around;
+    border: none;
+}
+.row .header {
+    text-align: center;
+    background-color: thistle;
+}
+.col {
+    width: 25%;
+}
+.content {
+    padding: 15px;
+}
+.content li {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
